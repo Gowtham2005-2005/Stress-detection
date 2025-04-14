@@ -2,8 +2,6 @@
 
 This repository contains a comprehensive multimodal stress detection system that uses pretrained transformer models to detect stress from text, audio, and physiological signals.
 
-## Features
-
 - **Text-based Stress Detection**: Using EmoRoBERTa, a RoBERTa model fine-tuned for emotion detection
 - **Audio-based Stress Detection**: Using Wav2Vec 2.0 fine-tuned for speech emotion recognition
 - **Physiological Signal-based Stress Detection**: Using Time Series Transformer for processing physiological signals like HRV, EDA, etc.
@@ -23,13 +21,6 @@ This repository contains a comprehensive multimodal stress detection system that
    pip install -r requirements.txt
    ```
 
-## Pretrained Models
-
-The system uses the following pretrained models:
-
-- **Text**: `j-hartmann/emotion-english-distilroberta-base` - DistilRoBERTa model fine-tuned on emotion datasets
-- **Audio**: Uses a simplified rule-based approach with acoustic feature extraction (no external model)
-- **Physiological Signals**: Uses a Time Series Transformer model that can be fine-tuned on physiological datasets like WESAD or SWELL-KW
 
 ## Using Gated Hugging Face Models
 
