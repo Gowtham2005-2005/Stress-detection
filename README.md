@@ -12,7 +12,7 @@ This repository contains a comprehensive multimodal stress detection system that
 1. Clone this repository:
 
    ```
-   git clone https://github.com/yourusername/stress-detection.git
+   git clone https://github.com/Gowtham2005-2005/stress-detection.git
    cd stress-detection
    ```
 
